@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T00:11:55.004891",
+  "generated_at": "2026-05-08T01:14:11.439911",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -324,6 +324,67 @@
           "zone": 2,
           "training_load": 85.67013,
           "decoupling": 8.198515
+        }
+      ]
+    },
+    {
+      "activity_id": "i146347253",
+      "date": "2026-05-08",
+      "type": "Swim",
+      "name": "\u6cf3\u6c60\u6e38\u6cf3",
+      "interval_summary": [
+        "1x 150m 2:10",
+        "1x 400m 2:00",
+        "1x 1000m 2:08"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "195s@123bpm22rpm",
+          "duration_secs": 195,
+          "avg_hr": 123,
+          "max_hr": 134,
+          "avg_cadence": 21.964102,
+          "zone": 3
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 47,
+          "avg_hr": 119,
+          "max_hr": 125,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "479s@120bpm23rpm",
+          "duration_secs": 479,
+          "avg_hr": 120,
+          "max_hr": 128,
+          "avg_cadence": 23.336117,
+          "zone": 4
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 112,
+          "avg_hr": 119,
+          "max_hr": 136,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "1282s@142bpm22rpm",
+          "duration_secs": 1282,
+          "avg_hr": 142,
+          "max_hr": 166,
+          "avg_cadence": 22.492199,
+          "zone": 3
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 54,
+          "avg_hr": 137,
+          "max_hr": 154,
+          "zone": 1
         }
       ]
     }
