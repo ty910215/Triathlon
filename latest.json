@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-08T01:14:11.863954",
+    "last_updated": "2026-05-08T06:23:21.945841",
     "data_range_days": 28,
     "extended_range_days": 28,
     "version": "3.112"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -15.3
+        "value": -13.1
       }
     },
     "signal_summary": {
@@ -156,7 +156,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-05-07",
-    "age_days": 0,
+    "age_days": 1,
     "total_months": 35,
     "history_confidence": "high"
   },
@@ -230,10 +230,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 33.97,
-      "atl": 49.25,
-      "tsb": -15.28,
-      "ramp_rate": 1.82,
+      "ctl": 33.49,
+      "atl": 46.59,
+      "tsb": -13.1,
+      "ramp_rate": 1.35,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -725,7 +725,7 @@
     "p_max": 575,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-08T01:14:11.862666",
+    "calculation_timestamp": "2026-05-08T06:23:21.944553",
     "data_quality": {
       "hrv_data_points": 28,
       "rhr_data_points": 28,
@@ -743,7 +743,7 @@
       "id": "i146347253",
       "date": "2026-05-08T07:45:39",
       "type": "Swim",
-      "name": "\u6cf3\u6c60\u6e38\u6cf3",
+      "name": "\u57fa\u7840 \u6709\u6c27\u8010\u529bAE1\uff1a\u6062\u590d\u7ec3\u4e60",
       "duration_hours": 0.54,
       "distance_km": 1.55,
       "tss": 41,
