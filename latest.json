@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-04T11:27:17.305989",
+    "last_updated": "2026-06-04T19:36:47.164382",
     "data_range_days": 28,
     "extended_range_days": 28,
     "version": "3.112"
@@ -319,7 +319,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3513,
+      "steps": 3578,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -724,7 +724,7 @@
     "p_max": 575,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-04T11:27:17.304725",
+    "calculation_timestamp": "2026-06-04T19:36:47.163127",
     "data_quality": {
       "hrv_data_points": 28,
       "rhr_data_points": 28,
@@ -3929,7 +3929,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3513,
+      "steps": 3578,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3942,17 +3942,17 @@
   ],
   "planned_workouts": [
     {
-      "id": 112933604,
+      "id": 113708660,
       "date": "2026-06-04",
-      "name": "\u8fdb\u9636 \u200b\u200b\u9608\u503c\u8bad\u7ec3\u200b\u200b \u808c\u8089\u8010\u529bME2\uff1a\u5de1\u822a\u95f4\u6b47-\u5fc3\u7387\u5e26",
+      "name": "\u57fa\u7840 \u200b\u200b\u4f4e\u5f3a\u5ea6\u6709\u6c27\u200b\u200b \u6709\u6c27\u8010\u529bAE1\uff08\u5fc3\u7387\uff09\uff1a\u6062\u590d\u7ec3\u4e60+SS2\u5355\u811a\u8e29\u8e0f",
       "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 61,
-      "duration_hours": 0.85,
-      "duration_formatted": "51m",
-      "workout_summary": "5m | 3m | 2m | 1m | 3m | 4\u00d76m / 2m rec | 5m",
+      "sport_type": "VirtualRide",
+      "planned_tss": 46,
+      "duration_hours": 1.52,
+      "duration_formatted": "1h31m",
+      "workout_summary": null,
       "has_terrain": false,
-      "description": "Warmup\n-  5m Z1 pace\n-  3m Z2 pace\n-  2m Z3 pace\n-  1m Z4 pace\n-  3m Z1 pace\n\nwork\n4x\n-  6m Z4 pace\n-  2m Z1 pace\n\ncooldown\n-5m Z1 pace"
+      "description": "Warmup\n-2M Z1 hr\n\nWarmup \u5355\u817f\u8e29\u8e0f1+1+1\n-9M \n\nwork\n- \u9a91\u884c\u53f0:\u81ea\u7531\u9a91\u884c 75m Z1 hr\n\ncooldown\n- 5M Z1 hr"
     },
     {
       "id": 111924709,
@@ -3968,6 +3968,19 @@
       "description": ""
     },
     {
+      "id": 112933604,
+      "date": "2026-06-05",
+      "name": "\u8fdb\u9636 \u200b\u200b\u9608\u503c\u8bad\u7ec3\u200b\u200b \u808c\u8089\u8010\u529bME2\uff1a\u5de1\u822a\u95f4\u6b47-\u5fc3\u7387\u5e26",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 61,
+      "duration_hours": 0.85,
+      "duration_formatted": "51m",
+      "workout_summary": "5m | 3m | 2m | 1m | 3m | 4\u00d76m / 2m rec | 5m",
+      "has_terrain": false,
+      "description": "Warmup\n-  5m Z1 pace\n-  3m Z2 pace\n-  2m Z3 pace\n-  1m Z4 pace\n-  3m Z1 pace\n\nwork\n4x\n-  6m Z4 pace\n-  2m Z1 pace\n\ncooldown\n-5m Z1 pace"
+    },
+    {
       "id": 112933617,
       "date": "2026-06-05",
       "name": "\u57fa\u7840 \u6709\u6c27\u8010\u529bAE2\uff1a\u6709\u6c27\u9608\u503c\u95f4\u6b47",
@@ -3979,19 +3992,6 @@
       "workout_summary": "5m6s | 4\u00d79m14s / 2m44s rec",
       "has_terrain": false,
       "description": "Warmup\n- 0.2km ramp Z1-Z2 Pace\n\n4x\n- 0.4km Z2 Pace\n- 0.1km Z1 Pace"
-    },
-    {
-      "id": 113708660,
-      "date": "2026-06-05",
-      "name": "\u57fa\u7840 \u200b\u200b\u4f4e\u5f3a\u5ea6\u6709\u6c27\u200b\u200b \u6709\u6c27\u8010\u529bAE1\uff08\u5fc3\u7387\uff09\uff1a\u6062\u590d\u7ec3\u4e60+SS2\u5355\u811a\u8e29\u8e0f",
-      "type": "WORKOUT",
-      "sport_type": "VirtualRide",
-      "planned_tss": 46,
-      "duration_hours": 1.52,
-      "duration_formatted": "1h31m",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "Warmup\n-2M Z1 hr\n\nWarmup \u5355\u817f\u8e29\u8e0f1+1+1\n-9M \n\nwork\n- \u9a91\u884c\u53f0:\u81ea\u7531\u9a91\u884c 75m Z1 hr\n\ncooldown\n- 5M Z1 hr"
     },
     {
       "id": 112933183,
