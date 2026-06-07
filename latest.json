@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-07T21:45:43.994542",
+    "last_updated": "2026-06-07T23:11:06.747661",
     "data_range_days": 28,
     "extended_range_days": 28,
     "version": "3.112"
@@ -113,9 +113,9 @@
       },
       "rhr": {
         "status": "green",
-        "value": 51,
-        "baseline_7d": 49.4,
-        "delta_bpm": 1.6
+        "value": 47,
+        "baseline_7d": 49.2,
+        "delta_bpm": -2.2
       },
       "sleep": {
         "status": "green",
@@ -128,8 +128,8 @@
       },
       "ri": {
         "status": "green",
-        "value": 1.01,
-        "value_yesterday": 0.69
+        "value": 1.09,
+        "value_yesterday": 0.68
       },
       "tsb": {
         "status": "green",
@@ -297,7 +297,7 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 51,
+      "resting_hr": 47,
       "hrv": 51.0,
       "sleep_quality": 2,
       "sleep_hours": 7.1,
@@ -319,7 +319,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 4364,
+      "steps": 4505,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -331,14 +331,14 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": 1.01,
-    "recovery_index_yesterday": 0.69,
+    "recovery_index": 1.09,
+    "recovery_index_yesterday": 0.68,
     "hrv_baseline_7d": 48.9,
-    "rhr_baseline_7d": 49.4,
+    "rhr_baseline_7d": 49.2,
     "hrv_baseline_28d": 48.9,
-    "rhr_baseline_28d": 49.4,
+    "rhr_baseline_28d": 49.2,
     "latest_hrv": 51.0,
-    "latest_rhr": 51,
+    "latest_rhr": 47,
     "acwr": 0.69,
     "acwr_interpretation": "undertraining",
     "monotony": 0.63,
@@ -350,7 +350,7 @@
     "multi_sport_detected": true,
     "strain": 142.0,
     "stress_tolerance": 2.3,
-    "load_recovery_ratio": 2.2,
+    "load_recovery_ratio": 2.1,
     "tss_7d_total": 225.0,
     "tss_28d_total": 1310.0,
     "zone_distribution_7d": {
@@ -724,7 +724,7 @@
     "p_max": 574,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-07T21:45:43.993360",
+    "calculation_timestamp": "2026-06-07T23:11:06.746490",
     "data_quality": {
       "hrv_data_points": 28,
       "rhr_data_points": 28,
@@ -3846,7 +3846,7 @@
       "display": {
         "weight": null
       },
-      "resting_hr": 51,
+      "resting_hr": 47,
       "hrv_rmssd": 51.0,
       "hrv_sdnn": null,
       "sleep_hours": 7.1,
@@ -3872,7 +3872,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 4364,
+      "steps": 4505,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -4091,6 +4091,20 @@
       "workout_summary": "4m | 3m | 2m | 1m | 2 \u00d7 30s | 2m | 5\u00d72m / 2m rec | 5m",
       "has_terrain": false,
       "description": "Warmup\n- 4m  Z1 Pace  \n- 3m Z2  Pace \n- 2m Z3  Pace \n- 1m Z4 Pace \n- 30s Z5 Pace \n- 30s Z6 Pace \n- 2m Z1  Pace \n\nwork\n5x\n- 120s z6 Pace  \n- 120s Z1  Pace \n\ncooldown\n-5m Z3-Z1  Pace"
+    },
+    {
+      "id": 114755526,
+      "date": "2026-06-15",
+      "name": "IntervalCoach - Lower Body Strength",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": null,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Lower Body Strength\nLeg strength for cycling power and running economy\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]"
     }
   ],
   "workout_summary_stats": {
@@ -4098,7 +4112,7 @@
     "success": 6,
     "patternA": 6,
     "patternB": 0,
-    "bail_no_workout_doc": 0,
+    "bail_no_workout_doc": 1,
     "bail_no_match": 4
   },
   "weekly_summary": {
@@ -4107,7 +4121,7 @@
     "total_tss": 1310,
     "activities_count": 25,
     "avg_hrv": 48.9,
-    "avg_resting_hr": 49.4
+    "avg_resting_hr": 49.2
   },
   "race_calendar": {
     "next_race": null,
