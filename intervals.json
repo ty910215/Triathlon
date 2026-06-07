@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-06-06T22:45:18.905778",
+  "generated_at": "2026-06-07T00:10:24.994264",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i150730704",
-      "date": "2026-05-23",
-      "type": "VirtualRun",
-      "name": "\u57fa\u7840 \u200b\u200b\u9608\u503c\u8bad\u7ec3\u200b\u200b \u808c\u8089\u529b\u91cfMF3\uff1a\u722c\u5761\u91cd\u590d",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 2681,
-          "avg_power": 266,
-          "max_power": 370,
-          "avg_hr": 146,
-          "max_hr": 180,
-          "avg_cadence": 82.7348,
-          "zone": 2,
-          "training_load": 37.81174,
-          "decoupling": 16.720745
-        }
-      ]
-    },
     {
       "activity_id": "i150946708",
       "date": "2026-05-24",
