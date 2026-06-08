@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-08T01:35:05.238218",
+    "last_updated": "2026-06-08T06:24:18.658158",
     "data_range_days": 28,
     "extended_range_days": 28,
     "version": "3.112"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -4.5
+        "value": -9.2
       }
     },
     "signal_summary": {
@@ -254,15 +254,15 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 37.17,
-      "atl": 41.62,
-      "tsb": -4.45,
-      "ramp_rate": -0.37,
+      "ctl": 38.91,
+      "atl": 48.14,
+      "tsb": -9.23,
+      "ramp_rate": 1.38,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 193.7,
-      "w_prime": 17789,
+      "eftp": 193.9,
+      "w_prime": 17806,
       "w_prime_kj": 17.8,
       "p_max": 573,
       "vo2max": null,
@@ -331,7 +331,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 5059,
+      "steps": 6008,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -637,7 +637,7 @@
           },
           "coverage_ratio": 0.86,
           "ftp_used": 203,
-          "w_prime_used": 17789,
+          "w_prime_used": 17806,
           "ftp_staleness_days": 32,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -731,19 +731,19 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 193.7,
-    "w_prime": 17789,
+    "eftp": 193.9,
+    "w_prime": 17806,
     "w_prime_kj": 17.8,
     "p_max": 573,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-08T01:35:05.236941",
+    "calculation_timestamp": "2026-06-08T06:24:18.657001",
     "data_quality": {
       "hrv_data_points": 28,
       "rhr_data_points": 28,
       "activities_7d": 25,
       "activities_28d": 25,
-      "planned_workouts_7d": 49,
+      "planned_workouts_7d": 48,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -3930,7 +3930,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 5059,
+      "steps": 6008,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -4008,8 +4008,21 @@
       "description": ""
     },
     {
-      "id": 113458337,
+      "id": 113705993,
       "date": "2026-06-08",
+      "name": "\u8fdb\u9636 \u200b\u200b\u9608\u503c\u8bad\u7ec3\u200b\u200b \u808c\u8089\u8010\u529bME1\uff1a\u8282\u594f\u95f4\u6b47\uff1b\u5efa\u8bbe1\u671f+2\u5206\u949f",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 103,
+      "duration_hours": 1.83,
+      "duration_formatted": "1h50m",
+      "workout_summary": "2 \u00d7 5m | 2m | 3m | 4\u00d718m / 4m30s rec | 5m",
+      "has_terrain": false,
+      "description": "Warmup\n- 5m  Z1 HR\nWarmup\n- 5m  Z2 HR\nWarmup\n- 2m  Z3 HR\nWarmup\n- 3m  Z1 HR\n\nworkout\n4x\n-18m Z3\n-270s Z1 \n\n\nCooldown\n- 5m ramp Z2-Z1 HR"
+    },
+    {
+      "id": 113458337,
+      "date": "2026-06-09",
       "name": "\u57fa\u7840 \u6709\u6c27\u8010\u529bAE3\uff1a\u8282\u594f\u95f4\u6b47",
       "type": "WORKOUT",
       "sport_type": "Swim",
@@ -4022,7 +4035,7 @@
     },
     {
       "id": 114255831,
-      "date": "2026-06-08",
+      "date": "2026-06-09",
       "name": "\u7206\u53d1\u529b\u8bad\u7ec3",
       "type": "WORKOUT",
       "sport_type": "WeightTraining",
@@ -4032,19 +4045,6 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": ""
-    },
-    {
-      "id": 113705993,
-      "date": "2026-06-09",
-      "name": "\u8fdb\u9636 \u200b\u200b\u9608\u503c\u8bad\u7ec3\u200b\u200b \u808c\u8089\u8010\u529bME1\uff1a\u8282\u594f\u95f4\u6b47\uff1b\u5efa\u8bbe1\u671f+2\u5206\u949f",
-      "type": "WORKOUT",
-      "sport_type": "VirtualRide",
-      "planned_tss": 103,
-      "duration_hours": 1.83,
-      "duration_formatted": "1h50m",
-      "workout_summary": "2 \u00d7 5m | 2m | 3m | 4\u00d718m / 4m30s rec | 5m",
-      "has_terrain": false,
-      "description": "Warmup\n- 5m  Z1 HR\nWarmup\n- 5m  Z2 HR\nWarmup\n- 2m  Z3 HR\nWarmup\n- 3m  Z1 HR\n\nworkout\n4x\n-18m Z3\n-270s Z1 \n\n\nCooldown\n- 5m ramp Z2-Z1 HR"
     },
     {
       "id": 113459866,
