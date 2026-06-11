@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-11T04:52:00.461696",
+    "last_updated": "2026-06-11T09:15:26.500678",
     "data_range_days": 28,
     "extended_range_days": 28,
     "version": "3.112"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -3.5
+        "value": 0.4
       }
     },
     "signal_summary": {
@@ -266,17 +266,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 37.31,
-      "atl": 40.86,
-      "tsb": -3.55,
-      "ramp_rate": 0.24,
+      "ctl": 36.47,
+      "atl": 36.07,
+      "tsb": 0.4,
+      "ramp_rate": -0.61,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 193.3,
-      "w_prime": 17753,
-      "w_prime_kj": 17.8,
-      "p_max": 572,
+      "eftp": 193.1,
+      "w_prime": 17735,
+      "w_prime_kj": 17.7,
+      "p_max": 571,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -343,7 +343,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 4941,
+      "steps": 9130,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -649,7 +649,7 @@
           },
           "coverage_ratio": 0.86,
           "ftp_used": 203,
-          "w_prime_used": 17753,
+          "w_prime_used": 17735,
           "ftp_staleness_days": 35,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -707,13 +707,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 4.94,
-          "hard_sessions_planned": 3,
+          "planned_tss_delta": 2.75,
+          "hard_sessions_planned": 2,
           "current_week_hard_days_completed": 1,
-          "current_week_hard_days_total": 4,
+          "current_week_hard_days_total": 3,
           "race_proximity": null,
           "next_week_load": 4.99,
-          "plan_coverage_current_week": 1.0,
+          "plan_coverage_current_week": 0.83,
           "plan_coverage_next_week": 1.83
         },
         "data_quality": "good",
@@ -741,19 +741,19 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 193.3,
-    "w_prime": 17753,
-    "w_prime_kj": 17.8,
-    "p_max": 572,
+    "eftp": 193.1,
+    "w_prime": 17735,
+    "w_prime_kj": 17.7,
+    "p_max": 571,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-11T04:52:00.460523",
+    "calculation_timestamp": "2026-06-11T09:15:26.499388",
     "data_quality": {
       "hrv_data_points": 28,
       "rhr_data_points": 28,
       "activities_7d": 27,
       "activities_28d": 27,
-      "planned_workouts_7d": 47,
+      "planned_workouts_7d": 46,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 0
@@ -4103,7 +4103,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 4941,
+      "steps": 9130,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -4127,20 +4127,6 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": ""
-    },
-    {
-      "id": 115461367,
-      "date": "2026-06-11",
-      "name": "IntervalCoach - \u8010\u529b\u722c\u5761",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": 36,
-      "duration_hours": 0.83,
-      "duration_formatted": "49m31s",
-      "workout_summary": "8m | 3\u00d76m47s / 30s rec | 14m40s | 5m",
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- \u8881\uff0c\u51c6\u5907\u597d\u8010\u529b\u8bad\u7ec3\uff01 8m 76% pace\n\nMain Set\n3x\n- 325mtr 87% pace\n- Rest 30s\n\nRecovery\n- Endurance 525mtr 65% pace\n\nCooldown\n- \u5f88\u68d2\u7684\u575a\u6301\uff0c\u4eab\u53d7\u653e\u677e 5m 72% pace\n\n[Weekly Plan - Build]"
     },
     {
       "id": 113705993,
@@ -4400,9 +4386,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 19,
-    "success": 12,
-    "patternA": 12,
+    "attempted": 18,
+    "success": 11,
+    "patternA": 11,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 7
