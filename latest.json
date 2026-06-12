@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-12T04:40:39.299095",
+    "last_updated": "2026-06-12T08:48:11.081331",
     "data_range_days": 28,
     "extended_range_days": 28,
     "version": "3.112"
@@ -343,7 +343,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2410,
+      "steps": 5232,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -716,7 +716,7 @@
           "race_proximity": null,
           "next_week_load": 0.84,
           "plan_coverage_current_week": 0.67,
-          "plan_coverage_next_week": 1.83
+          "plan_coverage_next_week": 1.67
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -749,7 +749,7 @@
     "p_max": 571,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-12T04:40:39.297753",
+    "calculation_timestamp": "2026-06-12T08:48:11.080052",
     "data_quality": {
       "hrv_data_points": 28,
       "rhr_data_points": 28,
@@ -4115,7 +4115,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2410,
+      "steps": 5232,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -4258,20 +4258,6 @@
       "description": ""
     },
     {
-      "id": 115461368,
-      "date": "2026-06-18",
-      "name": "IntervalCoach - \u957f\u8ddd\u79bb\u6709\u6c27",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": 36,
-      "duration_hours": 0.83,
-      "duration_formatted": "49m31s",
-      "workout_summary": "8m | 3\u00d76m47s / 30s rec | 14m40s | 5m",
-      "has_terrain": false,
-      "start_time": "09:00",
-      "description": "Warmup\n- \u8881\uff01\u4eca\u5929\u957f\u6709\u6c27\uff0c\u7a33\u4f4f\u3002 8m 76% pace\n\nMain Set\n3x\n- 325mtr 87% pace\n- Rest 30s\n\nRecovery\n- Endurance 525mtr 65% pace\n\nCooldown\n- \u505a\u5f97\u597d\uff01\u653e\u677e\u6e38\u3002 5m 72% pace\n\n[Weekly Plan - Build]"
-    },
-    {
       "id": 115041010,
       "date": "2026-06-19",
       "name": "\u8fdb\u9636 \u200b\u200b\u9608\u503c\u8bad\u7ec3\u200b\u200b \u808c\u8089\u8010\u529bME1\uff1a\u8282\u594f\u95f4\u6b47\uff1b\u5efa\u8bbe1\u671f+2\u5206\u949f",
@@ -4373,6 +4359,19 @@
       "has_terrain": false
     },
     {
+      "id": 115662594,
+      "date": "2026-06-25",
+      "name": "\u51cf\u8f7d\u5468",
+      "type": "NOTE",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": null
+    },
+    {
       "id": 115041387,
       "date": "2026-06-28",
       "name": "\u6d4b\u8bd5T2\uff1a\u529f\u80fd\u9608\u503c-FTP\u6d4b\u8bd5-\u5fc3\u7387\u5e26",
@@ -4387,9 +4386,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 18,
-    "success": 11,
-    "patternA": 11,
+    "attempted": 17,
+    "success": 10,
+    "patternA": 10,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 7
