@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-14T21:24:02.667115",
+    "last_updated": "2026-06-14T22:44:24.127583",
     "data_range_days": 28,
     "extended_range_days": 28,
     "version": "3.112"
@@ -719,7 +719,7 @@
           "race_proximity": null,
           "next_week_load": 0.84,
           "plan_coverage_current_week": 0.17,
-          "plan_coverage_next_week": 1.67
+          "plan_coverage_next_week": 1.83
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -754,7 +754,7 @@
     "p_max": 571,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 49.0,
-    "calculation_timestamp": "2026-06-14T21:24:02.665912",
+    "calculation_timestamp": "2026-06-14T22:44:24.126391",
     "data_quality": {
       "hrv_data_points": 28,
       "rhr_data_points": 28,
@@ -4188,6 +4188,20 @@
       "description": ""
     },
     {
+      "id": 116112094,
+      "date": "2026-06-18",
+      "name": "IntervalCoach - \u8f7b\u677e\u8dd1",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 51,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Warmup\n- 3m 65% pace\n- 3m 76% pace\n- 3m 87% pace\n\nMain Set\n- Ultra 45m 65-77% pace\n\nCooldown\n- 3m 77% pace\n- 3m 65% pace\n\n[Weekly Plan - Build]"
+    },
+    {
       "id": 115041010,
       "date": "2026-06-19",
       "name": "\u8fdb\u9636 \u200b\u200b\u9608\u503c\u8bad\u7ec3\u200b\u200b \u808c\u8089\u8010\u529bME1\uff1a\u8282\u594f\u95f4\u6b47\uff1b\u5efa\u8bbe1\u671f+2\u5206\u949f",
@@ -4316,12 +4330,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 14,
+    "attempted": 15,
     "success": 8,
     "patternA": 8,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 6
+    "bail_no_match": 7
   },
   "weekly_summary": {
     "total_training_hours": 25.88,
