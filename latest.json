@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-17T04:46:57.857851",
+    "last_updated": "2026-06-17T09:53:42.490833",
     "data_range_days": 28,
     "extended_range_days": 28,
     "version": "3.112"
@@ -113,9 +113,9 @@
       },
       "rhr": {
         "status": "green",
-        "value": 46,
-        "baseline_7d": 48.1,
-        "delta_bpm": -2.1
+        "value": 49,
+        "baseline_7d": 48.2,
+        "delta_bpm": 0.8
       },
       "sleep": {
         "status": "amber",
@@ -128,7 +128,7 @@
       },
       "ri": {
         "status": "green",
-        "value": 0.85,
+        "value": 0.8,
         "value_yesterday": 1.48
       },
       "tsb": {
@@ -273,10 +273,10 @@
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 192.9,
-      "w_prime": 17718,
+      "eftp": 192.7,
+      "w_prime": 17700,
       "w_prime_kj": 17.7,
-      "p_max": 571,
+      "p_max": 570,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -321,7 +321,7 @@
           "unit": "kg"
         }
       },
-      "resting_hr": 46,
+      "resting_hr": 49,
       "hrv": 42.0,
       "sleep_quality": 4,
       "sleep_hours": 5.47,
@@ -343,7 +343,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2400,
+      "steps": 4891,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -355,14 +355,14 @@
     }
   },
   "derived_metrics": {
-    "recovery_index": 0.85,
+    "recovery_index": 0.8,
     "recovery_index_yesterday": 1.48,
     "hrv_baseline_7d": 51.4,
-    "rhr_baseline_7d": 48.1,
+    "rhr_baseline_7d": 48.2,
     "hrv_baseline_28d": 51.4,
-    "rhr_baseline_28d": 48.1,
+    "rhr_baseline_28d": 48.2,
     "latest_hrv": 42.0,
-    "latest_rhr": 46,
+    "latest_rhr": 49,
     "acwr": 0.83,
     "acwr_interpretation": "optimal",
     "monotony": 0.85,
@@ -374,7 +374,7 @@
     "multi_sport_detected": true,
     "strain": 204.0,
     "stress_tolerance": 2.4,
-    "load_recovery_ratio": 2.8,
+    "load_recovery_ratio": 3.0,
     "tss_7d_total": 240.0,
     "tss_28d_total": 1159.0,
     "zone_distribution_7d": {
@@ -582,9 +582,9 @@
               "source": "observed_outdoor",
               "coggan_watts": 197,
               "coggan_wpkg": 2.47,
-              "cp_model_watts": 233,
-              "cp_model_wpkg": 2.93,
-              "model_divergence_pct": -19.3
+              "cp_model_watts": 232,
+              "cp_model_wpkg": 2.91,
+              "model_divergence_pct": -19.0
             },
             "1200s": {
               "actual_watts": 170,
@@ -649,7 +649,7 @@
           },
           "coverage_ratio": 0.86,
           "ftp_used": 203,
-          "w_prime_used": 17718,
+          "w_prime_used": 17700,
           "ftp_staleness_days": 41,
           "model_trust_note": "CP/W' model (P=CP+W'/t) is primary for durations \u226420min where W' contribution is meaningful. Coggan duration factors (Allen & Coggan, 3rd ed.) are the established reference for \u226560min. 30min is the crossover zone where both apply. model_divergence_pct = (actual - CP_model) / CP_model \u00d7 100. Positive divergence at short durations may indicate strong anaerobic capacity or stale W' value. Indoor MMP is typically 3-5% lower than outdoor (cooling, motivation) \u2014 source flag indicates which environment produced each anchor."
         }
@@ -743,13 +743,13 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 192.9,
-    "w_prime": 17718,
+    "eftp": 192.7,
+    "w_prime": 17700,
     "w_prime_kj": 17.7,
-    "p_max": 571,
+    "p_max": 570,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-17T04:46:57.856671",
+    "calculation_timestamp": "2026-06-17T09:53:42.489650",
     "data_quality": {
       "hrv_data_points": 28,
       "rhr_data_points": 28,
@@ -3802,7 +3802,7 @@
       "display": {
         "weight": null
       },
-      "resting_hr": 46,
+      "resting_hr": 49,
       "hrv_rmssd": 42.0,
       "hrv_sdnn": null,
       "sleep_hours": 5.47,
@@ -3828,7 +3828,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 2400,
+      "steps": 4891,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3841,17 +3841,17 @@
   ],
   "planned_workouts": [
     {
-      "id": 113706384,
+      "id": 116427676,
       "date": "2026-06-17",
-      "name": "\u8fdb\u9636 \u200b\u200b\u9ad8\u5f3a\u5ea6\u95f4\u6b47\u200b\u200b \u65e0\u6c27\u8010\u529bAnE2\uff1a\u6700\u5927\u6444\u6c27\u91cf",
+      "name": "\u57fa\u7840 \u200b\u200b\u4f4e\u5f3a\u5ea6\u6709\u6c27\u200b\u200b \u6709\u6c27\u8010\u529bAE1\uff08\u5fc3\u7387\uff09\uff1a\u6062\u590d\u7ec3\u4e60+SS2\u5355\u811a\u8e29\u8e0f",
       "type": "WORKOUT",
-      "sport_type": "Run",
-      "planned_tss": 45,
-      "duration_hours": 0.63,
-      "duration_formatted": "38m",
-      "workout_summary": "4m | 3m | 2m | 1m | 2 \u00d7 30s | 2m | 5\u00d72m / 2m rec | 5m",
+      "sport_type": "VirtualRide",
+      "planned_tss": 21,
+      "duration_hours": 0.77,
+      "duration_formatted": "46m",
+      "workout_summary": null,
       "has_terrain": false,
-      "description": "Warmup\n- 4m  Z1 Pace  \n- 3m Z2  Pace \n- 2m Z3  Pace \n- 1m Z4 Pace \n- 30s Z5 Pace \n- 30s Z6 Pace \n- 2m Z1  Pace \n\nwork\n5x\n- 120s z6 Pace  \n- 120s Z1  Pace \n\ncooldown\n-5m Z3-Z1  Pace"
+      "description": "Warmup\n-2M Z1 hr\n\nWarmup \u5355\u817f\u8e29\u8e0f1+1+1\n-9M \n\nwork\n- \u9a91\u884c\u53f0:\u81ea\u7531\u9a91\u884c 30m Z1 hr\n\ncooldown\n- 5M Z1 hr"
     },
     {
       "id": 115041013,
@@ -3867,6 +3867,19 @@
       "description": ""
     },
     {
+      "id": 115114707,
+      "date": "2026-06-18",
+      "name": "\u57fa\u7840 \u6709\u6c27\u8010\u529bAE2\uff1a\u6709\u6c27\u9608\u503c\u95f4\u6b47",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 42,
+      "duration_hours": 0.84,
+      "duration_formatted": "50m27s",
+      "workout_summary": "4m51s | 4\u00d78m48s / 2m36s rec",
+      "has_terrain": false,
+      "description": "Warmup\n- 0.2km ramp Z1-Z2 Pace\n\n4x\n- 0.4km Z2 Pace\n- 0.1km Z1 Pace"
+    },
+    {
       "id": 113706055,
       "date": "2026-06-19",
       "name": "\u57fa\u7840 \u200b\u200b\u9608\u503c\u8bad\u7ec3\u200b\u200b \u808c\u8089\u529b\u91cfMF1\uff1a\u722c\u5761\u9a91\u884c",
@@ -3880,21 +3893,8 @@
       "description": "Warmup\n-5M Z1\n-3M Z2 \n-2M Z3 \n-2M Z4 \n-1M Z5 \n-30S Z6 \n-3M Z2 \n\nworkout\n3x\n-\u5761\u5ea66%\uff1a\u9ad8\u9f7f\u6bd4\uff0c\u4f4e\u8e0f\u989150\uff0c2\u500dFTP\uff0c10\u5708\n 1m \n-\u653e\u677e\u9ad8\u8e0f\u9891\u7ec3\u4e60 \n 4m  90-110rpm \n-\u5761\u5ea66%\uff1a\u9ad8\u9f7f\u6bd4\uff0c\u4f4e\u8e0f\u989150\uff0c2\u500dFTP\uff0c10\u5708\n1m \n-\u653e\u677e\u9ad8\u8e0f\u9891\u7ec3\u4e60 \n 4m  90-110rpm\n-\u5761\u5ea66%\uff1a\u9ad8\u9f7f\u6bd4\uff0c\u4f4e\u8e0f\u989150\uff0c2\u500dFTP\uff0c10\u5708\n 1m \n-\u653e\u677e\u9ad8\u8e0f\u9891\u7ec3\u4e60 \n 8m  90-110rpm"
     },
     {
-      "id": 115114707,
-      "date": "2026-06-19",
-      "name": "\u57fa\u7840 \u6709\u6c27\u8010\u529bAE2\uff1a\u6709\u6c27\u9608\u503c\u95f4\u6b47",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": 42,
-      "duration_hours": 0.84,
-      "duration_formatted": "50m27s",
-      "workout_summary": "4m51s | 4\u00d78m48s / 2m36s rec",
-      "has_terrain": false,
-      "description": "Warmup\n- 0.2km ramp Z1-Z2 Pace\n\n4x\n- 0.4km Z2 Pace\n- 0.1km Z1 Pace"
-    },
-    {
       "id": 115041014,
-      "date": "2026-06-20",
+      "date": "2026-06-19",
       "name": "\u57fa\u7840 \u200b\u200b\u4f4e\u5f3a\u5ea6\u6709\u6c27\u200b\u200b \u6709\u6c27\u8010\u529bAE2\uff1a\u6709\u6c27\u9608\u503cAeT",
       "type": "WORKOUT",
       "sport_type": "Run",
@@ -3906,17 +3906,17 @@
       "description": "Warmup\n- 5M Z1 HR\n- 3M Z1-Z2 HR\n\nwork\n- 70m Z2 HR\n\nCooldown\n- 5M ramp Z2-Z1 HR"
     },
     {
-      "id": 116427676,
+      "id": 116620854,
       "date": "2026-06-20",
-      "name": "\u57fa\u7840 \u200b\u200b\u4f4e\u5f3a\u5ea6\u6709\u6c27\u200b\u200b \u6709\u6c27\u8010\u529bAE1\uff08\u5fc3\u7387\uff09\uff1a\u6062\u590d\u7ec3\u4e60+SS2\u5355\u811a\u8e29\u8e0f",
+      "name": "\u8fdb\u9636 \u200b\u200b\u9ad8\u5f3a\u5ea6\u95f4\u6b47\u200b\u200b \u65e0\u6c27\u8010\u529bAnE2\uff1a\u6700\u5927\u6444\u6c27\u91cf",
       "type": "WORKOUT",
-      "sport_type": "VirtualRide",
-      "planned_tss": 21,
-      "duration_hours": 0.77,
-      "duration_formatted": "46m",
-      "workout_summary": null,
+      "sport_type": "Run",
+      "planned_tss": 45,
+      "duration_hours": 0.63,
+      "duration_formatted": "38m",
+      "workout_summary": "4m | 3m | 2m | 1m | 2 \u00d7 30s | 2m | 5\u00d72m / 2m rec | 5m",
       "has_terrain": false,
-      "description": "Warmup\n-2M Z1 hr\n\nWarmup \u5355\u817f\u8e29\u8e0f1+1+1\n-9M \n\nwork\n- \u9a91\u884c\u53f0:\u81ea\u7531\u9a91\u884c 30m Z1 hr\n\ncooldown\n- 5M Z1 hr"
+      "description": "Warmup\n- 4m  Z1 Pace  \n- 3m Z2  Pace \n- 2m Z3  Pace \n- 1m Z4 Pace \n- 30s Z5 Pace \n- 30s Z6 Pace \n- 2m Z1  Pace \n\nwork\n5x\n- 120s z6 Pace  \n- 120s Z1  Pace \n\ncooldown\n-5m Z3-Z1  Pace"
     },
     {
       "id": 115041015,
@@ -4049,7 +4049,7 @@
     "total_tss": 1159,
     "activities_count": 24,
     "avg_hrv": 51.4,
-    "avg_resting_hr": 48.1
+    "avg_resting_hr": 48.2
   },
   "race_calendar": {
     "next_race": null,
