@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-19T05:26:54.875006",
+    "last_updated": "2026-06-19T10:03:26.588456",
     "data_range_days": 28,
     "extended_range_days": 28,
     "version": "3.112"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -19.6
+        "value": -13.8
       }
     },
     "signal_summary": {
@@ -266,10 +266,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 40.48,
-      "atl": 60.1,
-      "tsb": -19.62,
-      "ramp_rate": 2.68,
+      "ctl": 39.23,
+      "atl": 53.04,
+      "tsb": -13.81,
+      "ramp_rate": 1.43,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -343,7 +343,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 316,
+      "steps": 6146,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -751,7 +751,7 @@
     "p_max": 569,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-19T05:26:54.873731",
+    "calculation_timestamp": "2026-06-19T10:03:26.587177",
     "data_quality": {
       "hrv_data_points": 28,
       "rhr_data_points": 28,
@@ -769,7 +769,7 @@
       "id": "i158490477",
       "date": "2026-06-19T08:03:03",
       "type": "VirtualRide",
-      "name": "\u57fa\u7840 \u200b\u200b\u9608\u503c\u8bad\u7ec3\u200b\u200b",
+      "name": "\u57fa\u7840 \u200b\u200b\u9608\u503c\u8bad\u7ec3\u200b\u200b \u808c\u8089\u529b\u91cfMF1\uff1a\u722c\u5761\u9a91\u884c",
       "duration_hours": 1.08,
       "distance_km": 20.6,
       "tss": 101,
@@ -3902,7 +3902,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 316,
+      "steps": 6146,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3928,8 +3928,21 @@
       "description": "Warmup\n-5M Z1\n-3M Z2 \n-2M Z3 \n-2M Z4 \n-1M Z5 \n-30S Z6 \n-3M Z2 \n\nworkout\n3x\n-\u5761\u5ea66%\uff1a\u9ad8\u9f7f\u6bd4\uff0c\u4f4e\u8e0f\u989150\uff0c2\u500dFTP\uff0c10\u5708\n 1m \n-\u653e\u677e\u9ad8\u8e0f\u9891\u7ec3\u4e60 \n 4m  90-110rpm \n-\u5761\u5ea66%\uff1a\u9ad8\u9f7f\u6bd4\uff0c\u4f4e\u8e0f\u989150\uff0c2\u500dFTP\uff0c10\u5708\n1m \n-\u653e\u677e\u9ad8\u8e0f\u9891\u7ec3\u4e60 \n 4m  90-110rpm\n-\u5761\u5ea66%\uff1a\u9ad8\u9f7f\u6bd4\uff0c\u4f4e\u8e0f\u989150\uff0c2\u500dFTP\uff0c10\u5708\n 1m \n-\u653e\u677e\u9ad8\u8e0f\u9891\u7ec3\u4e60 \n 8m  90-110rpm"
     },
     {
-      "id": 115041014,
+      "id": 116427662,
       "date": "2026-06-19",
+      "name": "\u8fdb\u9636 \u808c\u8089\u8010\u529bME2\uff1a\u77ed\u8ddd\u79bb\u5de1\u822a\u95f4\u6b47",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 65,
+      "duration_hours": 0.89,
+      "duration_formatted": "53m23s",
+      "workout_summary": "2m26s | 1m56s | 2m | 10\u00d73m41s / 20s rec | 2m | 4m51s",
+      "has_terrain": false,
+      "description": "Warmup\n- 0.1km ramp Z1-Z2 Pace\n- 0.1km ramp Z3-Z4 Pace\n- lap 120\" rest\n\n10x\n- 0.2km Z4-z5 Pace\n- \u4f11\u606f20\u79d2 lap 20\" rest\n\n\ncooldown\n- lap 120\" rest\n-0.2km ramp Z2-Z1 Pace"
+    },
+    {
+      "id": 115041014,
+      "date": "2026-06-20",
       "name": "\u57fa\u7840 \u200b\u200b\u4f4e\u5f3a\u5ea6\u6709\u6c27\u200b\u200b \u6709\u6c27\u8010\u529bAE2\uff1a\u6709\u6c27\u9608\u503cAeT",
       "type": "WORKOUT",
       "sport_type": "Run",
@@ -3965,19 +3978,6 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "Warmup\n- 5m  Z1 \n- 5m  Z2 \n- 2m  Z3 \n- 1m  Z4 \n- 30s  Z5 \n- 3m  Z1 \n\nworkout\n-5 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 1m Z5 hr \n-1 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 45s Z1 hr\n-5 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 2m Z5 hr\n-1 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 90s Z1 hr\n-5 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 3m Z5 hr\n-1 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 135s Z1 hr\n-5 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 4m Z5 hr\n-1 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 180s Z1 hr\n-5 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 3m Z5 hr\n-1 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 135s Z1 hr\n-5 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 2m Z5 hr\n-1 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 90s Z1 hr\n-5 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 1m Z5 hr\n-1 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 45s Z1hr\n\nCooldown\n- 5m ramp Z2-Z1"
-    },
-    {
-      "id": 116427662,
-      "date": "2026-06-21",
-      "name": "\u8fdb\u9636 \u808c\u8089\u8010\u529bME2\uff1a\u77ed\u8ddd\u79bb\u5de1\u822a\u95f4\u6b47",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": 65,
-      "duration_hours": 0.89,
-      "duration_formatted": "53m23s",
-      "workout_summary": "2m26s | 1m56s | 2m | 10\u00d73m41s / 20s rec | 2m | 4m51s",
-      "has_terrain": false,
-      "description": "Warmup\n- 0.1km ramp Z1-Z2 Pace\n- 0.1km ramp Z3-Z4 Pace\n- lap 120\" rest\n\n10x\n- 0.2km Z4-z5 Pace\n- \u4f11\u606f20\u79d2 lap 20\" rest\n\n\ncooldown\n- lap 120\" rest\n-0.2km ramp Z2-Z1 Pace"
     },
     {
       "id": 115041016,
