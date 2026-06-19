@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-19T21:46:05.628691",
+    "last_updated": "2026-06-19T23:03:27.341945",
     "data_range_days": 28,
     "extended_range_days": 28,
     "version": "3.112"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -17.3
+        "value": -10.2
       }
     },
     "signal_summary": {
@@ -266,10 +266,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 39.98,
-      "atl": 57.3,
-      "tsb": -17.32,
-      "ramp_rate": 2.19,
+      "ctl": 38.46,
+      "atl": 48.65,
+      "tsb": -10.19,
+      "ramp_rate": 0.66,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -343,7 +343,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 6146,
+      "steps": 7805,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -718,7 +718,7 @@
           "race_proximity": null,
           "next_week_load": 0.87,
           "plan_coverage_current_week": 0.71,
-          "plan_coverage_next_week": 1.29
+          "plan_coverage_next_week": 1.43
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -751,7 +751,7 @@
     "p_max": 569,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-19T21:46:05.627410",
+    "calculation_timestamp": "2026-06-19T23:03:27.340738",
     "data_quality": {
       "hrv_data_points": 28,
       "rhr_data_points": 28,
@@ -769,7 +769,7 @@
       "id": "i158614761",
       "date": "2026-06-19T19:41:39",
       "type": "Swim",
-      "name": "\u8fdb\u9636 \u808c\u8089\u8010\u529bME2\uff1a\u77ed\u8ddd",
+      "name": "\u8fdb\u9636 \u808c\u8089\u8010\u529bME2\uff1a\u77ed\u8ddd\u79bb\u5de1\u822a\u95f4\u6b47",
       "duration_hours": 0.39,
       "distance_km": 1.2,
       "tss": 32,
@@ -3969,7 +3969,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 6146,
+      "steps": 7805,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -4153,6 +4153,20 @@
       "description": "Warmup\n- 8m 76% pace\n\nMain Set\n- Short 75mtr 97% pace\n- Rest 30s\n- Medium 150mtr 97% pace\n- Rest 40s\n- Long 275mtr 97% pace\n- Rest 1m\n- Medium 150mtr 96% pace\n- Rest 40s\n- Short 75mtr 96% pace\n- Rest 30s\n- Set Rest 75mtr 71% pace\n- Short 75mtr 96% pace\n- Rest 30s\n- Medium 150mtr 98% pace\n- Rest 40s\n- Long 275mtr 98% pace\n- Rest 1m\n- Medium 150mtr 98% pace\n- Rest 40s\n- Short 75mtr 97% pace\n- Rest 30s\n\nCooldown\n- 5m 72% pace\n\n[Weekly Plan - Build]"
     },
     {
+      "id": 117338459,
+      "date": "2026-06-27",
+      "name": "IntervalCoach - \u8f7b\u677e\u8dd1",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 94,
+      "duration_hours": 1.67,
+      "duration_formatted": "1h40m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- 5m 63-67% pace\n- 5m 74-78% pace"
+    },
+    {
       "id": 115041387,
       "date": "2026-06-28",
       "name": "\u6d4b\u8bd5T2\uff1a\u529f\u80fd\u9608\u503c-FTP\u6d4b\u8bd5-\u5fc3\u7387\u5e26",
@@ -4167,12 +4181,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 12,
+    "attempted": 13,
     "success": 6,
     "patternA": 6,
     "patternB": 0,
     "bail_no_workout_doc": 1,
-    "bail_no_match": 6
+    "bail_no_match": 7
   },
   "weekly_summary": {
     "total_training_hours": 24.97,
