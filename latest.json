@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-22T13:19:58.268470",
+    "last_updated": "2026-06-22T18:04:44.493231",
     "data_range_days": 28,
     "extended_range_days": 28,
     "version": "3.112"
@@ -718,7 +718,7 @@
           "race_proximity": null,
           "next_week_load": null,
           "plan_coverage_current_week": 2.17,
-          "plan_coverage_next_week": 0.0
+          "plan_coverage_next_week": 0.17
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -751,7 +751,7 @@
     "p_max": 568,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-22T13:19:58.267191",
+    "calculation_timestamp": "2026-06-22T18:04:44.492034",
     "data_quality": {
       "hrv_data_points": 28,
       "rhr_data_points": 28,
@@ -4070,15 +4070,29 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "Warmup\n- 5M Z1 HR\n- 3M Z1-Z2 HR\n\nwork\n- 60m Z2 HR\n\nCooldown\n- 5M ramp Z2-Z1 HR"
+    },
+    {
+      "id": 117836514,
+      "date": "2026-06-30",
+      "name": "IntervalCoach - \u8f7b\u677e\u8dd1",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 45,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- 3m 63-67% pace\n- 3m 63-67% pace"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 8,
+    "attempted": 9,
     "success": 3,
     "patternA": 3,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 5
+    "bail_no_match": 6
   },
   "weekly_summary": {
     "total_training_hours": 23.07,
