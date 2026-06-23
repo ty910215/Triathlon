@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-23T14:07:03.175748",
+    "last_updated": "2026-06-23T16:43:16.542745",
     "data_range_days": 28,
     "extended_range_days": 28,
     "version": "3.112"
@@ -718,7 +718,7 @@
           "race_proximity": null,
           "next_week_load": null,
           "plan_coverage_current_week": 1.33,
-          "plan_coverage_next_week": 0.17
+          "plan_coverage_next_week": 0.33
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -751,7 +751,7 @@
     "p_max": 567,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-23T14:07:03.174480",
+    "calculation_timestamp": "2026-06-23T16:43:16.541475",
     "data_quality": {
       "hrv_data_points": 28,
       "rhr_data_points": 28,
@@ -4020,12 +4020,25 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description": "Warmup\n- 3m 63-67% pace\n- 3m 63-67% pace\n- 3m 63-67% pace\n\nMain Set\n- Settle In 15m 63-67% pace\n- Fat Max 15m 65-72% pace\n- Cruise 15m 72-65% pace\n\nCooldown\n- 3m 70-74% pace\n- 3m 63-67% pace\n\n[Weekly Plan - Recovery]"
+    },
+    {
+      "id": 118071758,
+      "date": "2026-07-01",
+      "name": "IntervalCoach - \u9ad8\u5f3a\u5ea6\u95f4\u6b47",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 36,
+      "duration_hours": 0.83,
+      "duration_formatted": "49m31s",
+      "workout_summary": "8m | 3\u00d76m47s / 30s rec | 14m40s | 5m",
+      "has_terrain": false,
+      "start_time": "09:00"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 9,
-    "success": 3,
-    "patternA": 3,
+    "attempted": 10,
+    "success": 4,
+    "patternA": 4,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 6
