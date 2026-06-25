@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-25T16:02:53.756713",
+    "last_updated": "2026-06-25T18:26:35.249582",
     "data_range_days": 28,
     "extended_range_days": 28,
     "version": "3.112"
@@ -737,7 +737,7 @@
           "race_proximity": null,
           "next_week_load": null,
           "plan_coverage_current_week": 1.0,
-          "plan_coverage_next_week": 0.0
+          "plan_coverage_next_week": 0.17
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -770,7 +770,7 @@
     "p_max": 567,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-25T16:02:53.755537",
+    "calculation_timestamp": "2026-06-25T18:26:35.248394",
     "data_quality": {
       "hrv_data_points": 28,
       "rhr_data_points": 28,
@@ -4038,12 +4038,25 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "Warmup\n- 5M Z1 HR\n- 3M Z1-Z2 HR\n\nwork\n- 60m Z2 HR\n\nCooldown\n- 5M ramp Z2-Z1 HR"
+    },
+    {
+      "id": 118553912,
+      "date": "2026-07-03",
+      "name": "IntervalCoach - \u9ad8\u5f3a\u5ea6\u95f4\u6b47",
+      "type": "WORKOUT",
+      "sport_type": "Swim",
+      "planned_tss": 36,
+      "duration_hours": 0.83,
+      "duration_formatted": "49m31s",
+      "workout_summary": "8m | 3\u00d76m47s / 30s rec | 14m40s | 5m",
+      "has_terrain": false,
+      "start_time": "09:00"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 6,
-    "success": 2,
-    "patternA": 2,
+    "attempted": 7,
+    "success": 3,
+    "patternA": 3,
     "patternB": 0,
     "bail_no_workout_doc": 0,
     "bail_no_match": 4
