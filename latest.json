@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-25T07:54:56.174608",
+    "last_updated": "2026-06-25T10:47:44.509688",
     "data_range_days": 28,
     "extended_range_days": 28,
     "version": "3.112"
@@ -363,7 +363,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3062,
+      "steps": 5628,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -770,7 +770,7 @@
     "p_max": 567,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-25T07:54:56.173322",
+    "calculation_timestamp": "2026-06-25T10:47:44.508123",
     "data_quality": {
       "hrv_data_points": 28,
       "rhr_data_points": 28,
@@ -3949,7 +3949,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 3062,
+      "steps": 5628,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3962,17 +3962,17 @@
   ],
   "planned_workouts": [
     {
-      "id": 117674993,
+      "id": 117675274,
       "date": "2026-06-25",
-      "name": "\u8fdb\u9636 \u200b\u200b\u9608\u503c\u8bad\u7ec3\u200b\u200b \u808c\u8089\u8010\u529bME1\uff1a\u8282\u594f\u95f4\u6b47\uff1b\u5efa\u8bbe2\u671f18\u5206\u949f",
+      "name": "\u8fdb\u9636 \u808c\u8089\u8010\u529bME3\uff1a\u9608\u503c",
       "type": "WORKOUT",
-      "sport_type": "VirtualRide",
-      "planned_tss": 103,
-      "duration_hours": 1.83,
-      "duration_formatted": "1h50m",
-      "workout_summary": "2 \u00d7 5m | 2m | 3m | 4\u00d718m / 4m30s rec | 5m",
+      "sport_type": "Swim",
+      "planned_tss": 57,
+      "duration_hours": 0.92,
+      "duration_formatted": "55m20s",
+      "workout_summary": null,
       "has_terrain": false,
-      "description": "Warmup\n- 5m  Z1 HR\nWarmup\n- 5m  Z2 HR\nWarmup\n- 2m  Z3 HR\nWarmup\n- 3m  Z1 HR\n\nworkout\n4x\n-18m Z3\n-270s Z1 \n\n\nCooldown\n- 5m ramp Z2-Z1 HR"
+      "description": "warm-up\n- 0.1km ramp Z1-Z2 Pace\n- 0.1km ramp Z2-Z3 Pace\n- lap 120\" rest\n\nworkout\n- 1km Z3 Pace\n- lap 120\" rest\n- 1km Z3 Pace\n\ncooldown\n- lap 120\" rest\n-0.2km ramp Z2-Z1 Pace"
     },
     {
       "id": 117674944,
@@ -3988,17 +3988,30 @@
       "description": "Warmup\n- 5m Z1 pace\n- 3m Z2 pace\n- 2m Z3 pace\n- 3m Z1 pace\n\nwork\n- 25m Z3 pace\n\ncooldown\n-5m Z1 pace"
     },
     {
-      "id": 117675274,
+      "id": 117675258,
       "date": "2026-06-26",
-      "name": "\u8fdb\u9636 \u808c\u8089\u8010\u529bME3\uff1a\u9608\u503c",
+      "name": "\u8fdb\u9636 \u65e0\u6c27\u8010\u529bAnE1\uff1a\u6700\u5927\u6444\u6c27\u91cf",
       "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": 32,
-      "duration_hours": 0.56,
-      "duration_formatted": "33m22s",
-      "workout_summary": null,
+      "sport_type": "OpenWaterSwim",
+      "planned_tss": 38,
+      "duration_hours": 0.75,
+      "duration_formatted": "44m43s",
+      "workout_summary": "2m26s | 58s | 52s | 2m | 6\u00d751s / 45s rec | 22m | 2m | 4m51s",
       "has_terrain": false,
-      "description": "warm-up\n- 0.1km ramp Z1-Z2 Pace\n- 0.1km ramp Z2-Z3 Pace\n- lap 120\" rest\n\nworkout\n- 1km Z3 Pace\n\ncooldown\n- lap 120\" rest\n-0.2km ramp Z2-Z1 Pace"
+      "description": "Warmup\n- 0.1km ramp Z1-Z2 Pace\n- 0.05km ramp Z3-Z4 Pace\n- 0.05km ramp Z5-Z6 Pace\n- lap 120\" rest\n\nworuout 6x\n- 0.05km Z6 Pace\n- \u4f11\u606f45\u201c \u201dlap 45\" rest\n\n- 1km Z2 Pace\n\ncooldown\n- lap 120\" rest\n- 0.2km ramp Z2-Z1 Pace"
+    },
+    {
+      "id": 117674993,
+      "date": "2026-06-27",
+      "name": "\u8fdb\u9636 \u200b\u200b\u9608\u503c\u8bad\u7ec3\u200b\u200b \u808c\u8089\u8010\u529bME1\uff1a\u8282\u594f\u95f4\u6b47\uff1b\u5efa\u8bbe2\u671f18\u5206\u949f",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 103,
+      "duration_hours": 1.83,
+      "duration_formatted": "1h50m",
+      "workout_summary": "2 \u00d7 5m | 2m | 3m | 4\u00d718m / 4m30s rec | 5m",
+      "has_terrain": false,
+      "description": "Warmup\n- 5m  Z1 HR\nWarmup\n- 5m  Z2 HR\nWarmup\n- 2m  Z3 HR\nWarmup\n- 3m  Z1 HR\n\nworkout\n4x\n-18m Z3\n-270s Z1 \n\n\nCooldown\n- 5m ramp Z2-Z1 HR"
     },
     {
       "id": 117675159,
@@ -4012,19 +4025,6 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "Warmup\n- 5m  Z1 \n- 5m  Z2 \n- 2m  Z3 \n- 1m  Z4 \n- 30s  Z5 \n- 3m  Z1 \n\nworkout\n-5 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 1m Z5 hr \n-1 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 45s Z1 hr\n-5 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 2m Z5 hr\n-1 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 90s Z1 hr\n-5 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 3m Z5 hr\n-1 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 135s Z1 hr\n-5 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 4m Z5 hr\n-1 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 180s Z1 hr\n-5 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 3m Z5 hr\n-1 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 135s Z1 hr\n-5 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 2m Z5 hr\n-1 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 90s Z1 hr\n-5 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 1m Z5 hr\n-1 \u533a\u529f\u7387\uff0c\u81ea\u7531\u9a91\u884c 45s Z1hr\n\nCooldown\n- 5m ramp Z2-Z1"
-    },
-    {
-      "id": 117675258,
-      "date": "2026-06-27",
-      "name": "\u8fdb\u9636 \u65e0\u6c27\u8010\u529bAnE1\uff1a\u6700\u5927\u6444\u6c27\u91cf",
-      "type": "WORKOUT",
-      "sport_type": "OpenWaterSwim",
-      "planned_tss": 38,
-      "duration_hours": 0.75,
-      "duration_formatted": "44m43s",
-      "workout_summary": "2m26s | 58s | 52s | 2m | 6\u00d751s / 45s rec | 22m | 2m | 4m51s",
-      "has_terrain": false,
-      "description": "Warmup\n- 0.1km ramp Z1-Z2 Pace\n- 0.05km ramp Z3-Z4 Pace\n- 0.05km ramp Z5-Z6 Pace\n- lap 120\" rest\n\nworuout 6x\n- 0.05km Z6 Pace\n- \u4f11\u606f45\u201c \u201dlap 45\" rest\n\n- 1km Z2 Pace\n\ncooldown\n- lap 120\" rest\n- 0.2km ramp Z2-Z1 Pace"
     },
     {
       "id": 117674958,
