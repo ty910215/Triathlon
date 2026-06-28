@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-28T15:51:26.148222",
+    "last_updated": "2026-06-28T17:19:31.801288",
     "data_range_days": 28,
     "extended_range_days": 28,
     "version": "3.112"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -11.9
+        "value": -4.2
       }
     },
     "signal_summary": {
@@ -254,10 +254,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 38.73,
-      "atl": 50.68,
-      "tsb": -11.95,
-      "ramp_rate": 2.02,
+      "ctl": 37.06,
+      "atl": 41.23,
+      "tsb": -4.17,
+      "ramp_rate": 0.35,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -705,7 +705,7 @@
           "race_proximity": null,
           "next_week_load": 0.3,
           "plan_coverage_current_week": 0.33,
-          "plan_coverage_next_week": 0.5
+          "plan_coverage_next_week": 0.67
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -738,7 +738,7 @@
     "p_max": 566,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-28T15:51:26.146962",
+    "calculation_timestamp": "2026-06-28T17:19:31.800034",
     "data_quality": {
       "hrv_data_points": 28,
       "rhr_data_points": 28,
@@ -3767,6 +3767,20 @@
       "description": "Warmup\n- 5m  Z1 HR\nWarmup\n- 5m  Z2 HR\nWarmup\n- 2m  Z3 HR\nWarmup\n- 3m  Z1 HR\n\nworkout\n4x\n-18m Z3\n-270s Z1 \n\n\nCooldown\n- 5m ramp Z2-Z1 HR"
     },
     {
+      "id": 119122848,
+      "date": "2026-06-29",
+      "name": "IntervalCoach - Core Stability",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 37,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description": "Core Stability\n\nCore exercises to improve stability, posture, and power transfer\n\n1. Plank: 5 sets \u00d7 45-60 sec (Keep body in straight line, engage glutes) [Rest: 30 sec]\n2. Side Plank: 3 sets \u00d7 30 sec each side (Stack feet or stagger for stability) [Rest: 15 sec]\n3. Dead Bug: 5 sets \u00d7 10 reps each side (Keep lower back pressed to floor) [Rest: 30 sec]\n4. Bird Dog: 5 sets \u00d7 10 reps each side (Extend opposite arm and leg, hold 2s) [Rest: 30 sec]\n5. Glute Bridge: 5 sets \u00d7 15 reps (Squeeze glutes at top, hold 2s) [Rest: 30 sec]\n6. Pallof Press: 5 sets \u00d7 10 reps each side (Band at chest height, press and hold, resist rotation) [Rest: 30 sec]\n\n[Duration: ~45 min]\n\n[Weekly Plan - Recovery]"
+    },
+    {
       "id": 118553912,
       "date": "2026-07-03",
       "name": "IntervalCoach - \u9ad8\u5f3a\u5ea6\u95f4\u6b47",
@@ -3807,6 +3821,20 @@
       "has_terrain": false,
       "start_time": "09:00",
       "description": "Warmup\n- 9m ramp 45-75% 85rpm\n\nMain Set\n- Settle In 11m 65% 85rpm\n- Build 11m 67% 88rpm\n- Upper 11m 70-74% 90rpm\n- Cruise 12m 74-70% 88rpm\n\nCooldown\n- 6m ramp 65-45% 85rpm\n\n[Weekly Plan - Recovery]"
+    },
+    {
+      "id": 119122868,
+      "date": "2026-07-06",
+      "name": "IntervalCoach - Lower Body Strength",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 37,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Lower Body Strength\nLeg strength for cycling power and running economy\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]"
     }
   ],
   "workout_summary_stats": {
@@ -3814,7 +3842,7 @@
     "success": 2,
     "patternA": 2,
     "patternB": 0,
-    "bail_no_workout_doc": 0,
+    "bail_no_workout_doc": 2,
     "bail_no_match": 3
   },
   "weekly_summary": {
