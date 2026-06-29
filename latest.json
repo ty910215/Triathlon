@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-29T13:51:23.766855",
+    "last_updated": "2026-06-29T16:54:43.874843",
     "data_range_days": 28,
     "extended_range_days": 28,
     "version": "3.112"
@@ -705,7 +705,7 @@
           "race_proximity": null,
           "next_week_load": null,
           "plan_coverage_current_week": 1.5,
-          "plan_coverage_next_week": 0.0
+          "plan_coverage_next_week": 0.33
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -738,7 +738,7 @@
     "p_max": 566,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-29T13:51:23.765634",
+    "calculation_timestamp": "2026-06-29T16:54:43.873647",
     "data_quality": {
       "hrv_data_points": 28,
       "rhr_data_points": 28,
@@ -3857,15 +3857,43 @@
       "workout_summary": null,
       "has_terrain": false,
       "description": "Warmup\n- 5M Z1 HR\n- 3M Z1-Z2 HR\n\nwork\n- 60m Z2 HR\n\nCooldown\n- 5M ramp Z2-Z1 HR"
+    },
+    {
+      "id": 119445915,
+      "date": "2026-07-07",
+      "name": "IntervalCoach - \u8282\u594f\u8dd1",
+      "type": "WORKOUT",
+      "sport_type": "Run",
+      "planned_tss": 66,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Warmup\n- 3m 63-67% pace\n- 3m 74-78% pace"
+    },
+    {
+      "id": 119445922,
+      "date": "2026-07-07",
+      "name": "IntervalCoach - Lower Body Strength",
+      "type": "WORKOUT",
+      "sport_type": "WeightTraining",
+      "planned_tss": 37,
+      "duration_hours": 0.5,
+      "duration_formatted": "30m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "start_time": "09:00",
+      "description_preview": "Lower Body Strength\nLeg strength for cycling power and running economy\n1. Goblet Squat: 3 sets \u00d7 12 reps (Weight at chest, sit back into heels) [Rest: 60 sec]"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 8,
+    "attempted": 9,
     "success": 3,
     "patternA": 3,
     "patternB": 0,
-    "bail_no_workout_doc": 0,
-    "bail_no_match": 5
+    "bail_no_workout_doc": 1,
+    "bail_no_match": 6
   },
   "weekly_summary": {
     "total_training_hours": 22.07,
