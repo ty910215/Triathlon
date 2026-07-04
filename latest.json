@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-04T05:24:14.578475",
+    "last_updated": "2026-07-04T08:11:10.592856",
     "data_range_days": 28,
     "extended_range_days": 28,
     "version": "3.112"
@@ -281,10 +281,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 39.6,
-      "atl": 52.89,
-      "tsb": -13.29,
-      "ramp_rate": 4.01,
+      "ctl": 37.95,
+      "atl": 43.57,
+      "tsb": -5.62,
+      "ramp_rate": 2.36,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -768,7 +768,7 @@
     "p_max": 566,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-04T05:24:14.577243",
+    "calculation_timestamp": "2026-07-04T08:11:10.591939",
     "data_quality": {
       "hrv_data_points": 28,
       "rhr_data_points": 28,
@@ -786,7 +786,7 @@
       "id": "i162516841",
       "date": "2026-07-04T08:18:55",
       "type": "VirtualRun",
-      "name": "\u57fa\u7840 \u200b\u200b\u4f4e\u5f3a\u5ea6\u6709\u6c27\u200b",
+      "name": "\u57fa\u7840 \u200b\u200b\u4f4e\u5f3a\u5ea6\u6709\u6c27\u200b\u200b \u6709\u6c27\u8010\u529bAE2\uff1a\u6709\u6c27\u9608\u503cAeT",
       "duration_hours": 0.69,
       "distance_km": 6.01,
       "tss": 32,
