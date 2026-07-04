@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-04T21:09:29.006454",
+    "last_updated": "2026-07-04T22:12:25.873044",
     "data_range_days": 28,
     "extended_range_days": 28,
     "version": "3.112"
@@ -734,7 +734,7 @@
           "current_week_hard_days_total": 2,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.5,
+          "plan_coverage_current_week": 0.33,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -768,7 +768,7 @@
     "p_max": 566,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-04T21:09:29.005234",
+    "calculation_timestamp": "2026-07-04T22:12:25.871772",
     "data_quality": {
       "hrv_data_points": 28,
       "rhr_data_points": 28,
@@ -4041,19 +4041,6 @@
       "description": "Warmup\n- 5M Z1 HR\n- 3M Z1-Z2 HR\n\nwork\n- 60m Z2 HR\n\nCooldown\n- 5M ramp Z2-Z1 HR"
     },
     {
-      "id": 119364246,
-      "date": "2026-07-05",
-      "name": "\u8fdb\u9636 \u808c\u8089\u8010\u529bME3\uff1a\u9608\u503c",
-      "type": "WORKOUT",
-      "sport_type": "Swim",
-      "planned_tss": 57,
-      "duration_hours": 0.92,
-      "duration_formatted": "55m20s",
-      "workout_summary": null,
-      "has_terrain": false,
-      "description": "warm-up\n- 0.1km ramp Z1-Z2 Pace\n- 0.1km ramp Z2-Z3 Pace\n- lap 120\" rest\n\nworkout\n- 1km Z3 Pace\n- lap 120\" rest\n- 1km Z3 Pace\n\ncooldown\n- lap 120\" rest\n-0.2km ramp Z2-Z1 Pace"
-    },
-    {
       "id": 119364249,
       "date": "2026-07-05",
       "name": "\u8fdb\u9636 \u200b\u200b\u9ad8\u5f3a\u5ea6\u95f4\u6b47\u200b\u200b \u65e0\u6c27\u8010\u529bAnE3\uff1a\u91d1\u5b57\u5854\u95f4\u6b47",
@@ -4068,12 +4055,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 3,
+    "attempted": 2,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 3
+    "bail_no_match": 2
   },
   "weekly_summary": {
     "total_training_hours": 23.67,
