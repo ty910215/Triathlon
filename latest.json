@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-06T01:25:08.632005",
+    "last_updated": "2026-07-06T06:03:01.807275",
     "data_range_days": 28,
     "extended_range_days": 28,
     "version": "3.112"
@@ -133,7 +133,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -8.4
+        "value": -5.3
       }
     },
     "signal_summary": {
@@ -254,10 +254,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 39.25,
-      "atl": 47.68,
-      "tsb": -8.43,
-      "ramp_rate": 3.06,
+      "ctl": 38.47,
+      "atl": 43.76,
+      "tsb": -5.29,
+      "ramp_rate": 2.28,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -331,7 +331,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 4199,
+      "steps": 5730,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -746,7 +746,7 @@
     "p_max": 566,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-06T01:25:08.630773",
+    "calculation_timestamp": "2026-07-06T06:03:01.806033",
     "data_quality": {
       "hrv_data_points": 28,
       "rhr_data_points": 28,
@@ -3963,7 +3963,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 4199,
+      "steps": 5730,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3974,13 +3974,27 @@
       "readiness": null
     }
   ],
-  "planned_workouts": [],
+  "planned_workouts": [
+    {
+      "id": 120811920,
+      "date": "2026-08-03",
+      "name": "\u7b2c\u4e09\u8d5b\u5b63",
+      "type": "SEASON_START",
+      "sport_type": null,
+      "planned_tss": null,
+      "duration_hours": 0.0,
+      "duration_formatted": "0s",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description_preview": "\u672c\u8d5b\u5b63\u4f1a\u4f18\u5148\u75284\u4e2a\u6708\u7684\u65f6\u95f4\u505a\u589e\u808c\u8bad\u7ec3\uff0c\u672a\u540e\u671f\u4e13\u9879\u8bad\u7ec3\u6253\u597d\u529b\u91cf\u57fa\u7840"
+    }
+  ],
   "workout_summary_stats": {
     "attempted": 0,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 0,
+    "bail_no_workout_doc": 1,
     "bail_no_match": 0
   },
   "weekly_summary": {
