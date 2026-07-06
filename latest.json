@@ -62,15 +62,15 @@
       "menstrual": "menstrual_phase and menstrual_phase_predicted are not on the 1-4 scale. Values: PERIOD, FOLLICULAR, OVULATION, LUTEAL, etc."
     },
     "quick_stats": {
-      "total_training_hours": 23.79,
-      "total_training_formatted": "23h47m",
-      "total_activities": 26,
+      "total_training_hours": 24.79,
+      "total_training_formatted": "24h47m",
+      "total_activities": 27,
       "total_tss": 1226
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-07-06T21:11:45.016326",
+    "last_updated": "2026-07-06T22:40:04.463785",
     "data_range_days": 28,
     "extended_range_days": 28,
     "version": "3.112"
@@ -163,8 +163,8 @@
   "summary": {
     "period_description": "Last 28 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 23.79,
-    "total_activities": 26,
+    "total_duration_decimal_hours": 24.79,
+    "total_activities": 27,
     "by_activity_type": {
       "Kayaking": {
         "duration_decimal_hours": 0.62,
@@ -242,6 +242,18 @@
         "duration_decimal_hours": 4.21,
         "count": 4,
         "tss": 96,
+        "distance_km": 0.0,
+        "display": {
+          "distance": {
+            "value": 0.0,
+            "unit": "km"
+          }
+        }
+      },
+      "Workout": {
+        "duration_decimal_hours": 1.0,
+        "count": 1,
+        "tss": 0,
         "distance_km": 0.0,
         "display": {
           "distance": {
@@ -331,7 +343,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 8558,
+      "steps": 10386,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -693,9 +705,7 @@
     "phase_detection": {
       "phase": "Build",
       "confidence": "medium",
-      "reason_codes": [
-        "NO_PLANNED_WORKOUTS"
-      ],
+      "reason_codes": [],
       "basis": {
         "stream_1": {
           "ctl_slope": null,
@@ -704,13 +714,13 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
+          "planned_tss_delta": 0.26,
           "hard_sessions_planned": 0,
           "current_week_hard_days_completed": 0,
           "current_week_hard_days_total": 0,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
+          "plan_coverage_current_week": 0.17,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "good",
@@ -722,9 +732,7 @@
       "dossier_agreement": null
     },
     "phase_detected": "Build",
-    "phase_triggers": [
-      "NO_PLANNED_WORKOUTS"
-    ],
+    "phase_triggers": [],
     "seasonal_context": "Peak Race Season",
     "benchmark_indoor": {
       "current_ftp": 203,
@@ -746,12 +754,12 @@
     "p_max": 566,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-07-06T21:11:45.015069",
+    "calculation_timestamp": "2026-07-06T22:40:04.462531",
     "data_quality": {
       "hrv_data_points": 28,
       "rhr_data_points": 28,
-      "activities_7d": 26,
-      "activities_28d": 26,
+      "activities_7d": 27,
+      "activities_28d": 27,
       "planned_workouts_7d": 42,
       "ftp_history_days": {
         "indoor": 0,
@@ -760,6 +768,56 @@
     }
   },
   "recent_activities": [
+    {
+      "id": "i163371865",
+      "date": "2026-07-06T18:00:00",
+      "type": "Workout",
+      "name": "W1 \u51cf\u91cf\u5468 \u00b7 \u7efc\u5408\u529b\u91cf",
+      "duration_hours": 1.0,
+      "distance_km": 0.0,
+      "tss": null,
+      "intensity_factor": null,
+      "avg_power": null,
+      "normalized_power": null,
+      "avg_hr": null,
+      "max_hr": null,
+      "avg_cadence": null,
+      "avg_speed": null,
+      "avg_speed_unit": "KPH",
+      "max_speed": null,
+      "max_speed_unit": "KPH",
+      "avg_pace": null,
+      "avg_temp": null,
+      "avg_temp_unit": "C",
+      "weather": null,
+      "humidity": null,
+      "wind_speed": null,
+      "wind_speed_unit": "KMH",
+      "work_kj": null,
+      "calories": null,
+      "carbs_used": null,
+      "carbs_ingested": null,
+      "variability_index": null,
+      "decoupling": null,
+      "efficiency_factor": null,
+      "hrrc": null,
+      "elevation_m": null,
+      "display": {
+        "distance": {
+          "value": 0.0,
+          "unit": "km"
+        },
+        "elevation": null,
+        "avg_speed": null,
+        "max_speed": null
+      },
+      "feel": null,
+      "rpe": null,
+      "effort_response": null,
+      "zone_distribution": null,
+      "has_intervals": false,
+      "has_dfa": false
+    },
     {
       "id": "i162841239",
       "date": "2026-07-05T16:13:40",
@@ -3963,7 +4021,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 8558,
+      "steps": 10386,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -3975,6 +4033,19 @@
     }
   ],
   "planned_workouts": [
+    {
+      "id": 121045797,
+      "date": "2026-07-07",
+      "name": "\u57fa\u7840 \u200b\u200b\u4f4e\u5f3a\u5ea6\u6709\u6c27\u200b\u200b \u6709\u6c27\u8010\u529bAE1\uff08\u5fc3\u7387\uff09\uff1a\u6062\u590d\u7ec3\u4e60+SS2\u5355\u811a\u8e29\u8e0f",
+      "type": "WORKOUT",
+      "sport_type": "VirtualRide",
+      "planned_tss": 46,
+      "duration_hours": 1.52,
+      "duration_formatted": "1h31m",
+      "workout_summary": null,
+      "has_terrain": false,
+      "description": "Warmup\n-2M Z1 hr\n\nWarmup \u5355\u817f\u8e29\u8e0f1+1+1\n-9M \n\nwork\n- \u9a91\u884c\u53f0:\u81ea\u7531\u9a91\u884c 75m Z1 hr\n\ncooldown\n- 5M Z1 hr"
+    },
     {
       "id": 120811920,
       "date": "2026-08-03",
@@ -3990,18 +4061,18 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 0,
+    "attempted": 1,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 1,
-    "bail_no_match": 0
+    "bail_no_match": 1
   },
   "weekly_summary": {
-    "total_training_hours": 23.79,
-    "total_training_formatted": "23h47m",
+    "total_training_hours": 24.79,
+    "total_training_formatted": "24h47m",
     "total_tss": 1226,
-    "activities_count": 26,
+    "activities_count": 27,
     "avg_hrv": 53.2,
     "avg_resting_hr": 47.0
   },
