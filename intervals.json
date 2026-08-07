@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-08-01T23:13:45.161519",
+  "generated_at": "2026-08-07T00:31:30.335521",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
     {
-      "activity_id": "i166752522",
-      "date": "2026-07-18",
+      "activity_id": "i173224833",
+      "date": "2026-08-07",
       "type": "VirtualRide",
-      "name": "\u57fa\u7840 \u200b\u200b\u4f4e\u5f3a\u5ea6\u6709\u6c27\u200b",
+      "name": "Z2\u6062\u590d\u9a91\u884c 60min (FTP214)",
       "interval_summary": null,
       "intervals": [
         {
           "type": "RECOVERY",
-          "duration_secs": 3312,
-          "avg_power": 125,
-          "max_power": 200,
-          "avg_hr": 123,
-          "max_hr": 145,
-          "avg_cadence": 89.367516,
+          "duration_secs": 1885,
+          "avg_power": 121,
+          "max_power": 236,
+          "avg_hr": 130,
+          "max_hr": 152,
+          "avg_cadence": 86.817635,
           "zone": 2,
-          "training_load": 34.93982,
-          "decoupling": 9.449225
+          "training_load": 17.756363,
+          "decoupling": 1.928704
         }
       ]
     }
