@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-08-21T23:40:54.526896",
+  "generated_at": "2026-08-22T00:00:41.501067",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i173224833",
-      "date": "2026-08-07",
-      "type": "VirtualRide",
-      "name": "Z2\u6062\u590d\u9a91\u884c 60min (FTP214)",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1885,
-          "avg_power": 121,
-          "max_power": 236,
-          "avg_hr": 130,
-          "max_hr": 152,
-          "avg_cadence": 86.817635,
-          "zone": 2,
-          "training_load": 17.756363,
-          "decoupling": 1.928704
-        }
-      ]
-    },
     {
       "activity_id": "i173960836",
       "date": "2026-08-09",
