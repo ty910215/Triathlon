@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-08-25T23:53:07.025262",
+  "generated_at": "2026-08-26T01:41:17.785305",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i174727155",
-      "date": "2026-08-11",
-      "type": "VirtualRide",
-      "name": "\u57fa\u7840 \u6709\u6c27\u8010\u529bAE2\uff08\u5fc3\u7387",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3308,
-          "avg_power": 120,
-          "max_power": 294,
-          "avg_hr": 122,
-          "max_hr": 139,
-          "avg_cadence": 85.65871,
-          "zone": 2,
-          "training_load": 31.351295,
-          "decoupling": 14.087845
-        }
-      ]
-    },
     {
       "activity_id": "i175922681",
       "date": "2026-08-15",
@@ -194,6 +173,27 @@
           "zone": 1,
           "training_load": 2.387763,
           "decoupling": 23.332962
+        }
+      ]
+    },
+    {
+      "activity_id": "i179823581",
+      "date": "2026-08-26",
+      "type": "VirtualRide",
+      "name": "W4 Deload Z2\u6062\u590d\u9a91\u884c 45min",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2716,
+          "avg_power": 123,
+          "max_power": 211,
+          "avg_hr": 132,
+          "max_hr": 149,
+          "avg_cadence": 88.14059,
+          "zone": 2,
+          "training_load": 27.273113,
+          "decoupling": 9.234472
         }
       ]
     }
