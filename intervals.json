@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-09-09T23:59:55.480722",
+  "generated_at": "2026-09-10T04:30:11.253680",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i179823581",
-      "date": "2026-08-26",
-      "type": "VirtualRide",
-      "name": "W4 Deload Z2\u6062\u590d\u9a91\u884c 45min",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 2716,
-          "avg_power": 123,
-          "max_power": 211,
-          "avg_hr": 132,
-          "max_hr": 149,
-          "avg_cadence": 88.14059,
-          "zone": 2,
-          "training_load": 27.273113,
-          "decoupling": 9.234472
-        }
-      ]
-    },
     {
       "activity_id": "i182271205",
       "date": "2026-09-02",
