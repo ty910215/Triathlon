@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13T21:27:59.110234",
+  "generated_at": "2026-10-14T00:33:31.467932",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -142,6 +142,27 @@
           "zone": 2,
           "training_load": 32.844402,
           "decoupling": -0.9471254
+        }
+      ]
+    },
+    {
+      "activity_id": "i197012735",
+      "date": "2026-10-14",
+      "type": "VirtualRide",
+      "name": "P3 W11 \u5468\u4e09 Z2\u9a91\u884c 60min",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3603,
+          "avg_power": 118,
+          "max_power": 226,
+          "avg_hr": 130,
+          "max_hr": 152,
+          "avg_cadence": 83.688034,
+          "zone": 2,
+          "training_load": 34.686043,
+          "decoupling": 6.046311
         }
       ]
     }
