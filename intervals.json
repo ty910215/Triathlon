@@ -1,31 +1,10 @@
 {
-  "generated_at": "2026-10-22T21:28:49.538948",
+  "generated_at": "2026-10-23T00:07:25.712520",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
   "retention_days": 14,
   "activities": [
-    {
-      "activity_id": "i194887455",
-      "date": "2026-10-08",
-      "type": "VirtualRide",
-      "name": "P3 W10 \u5468\u56db Z2\u9a91\u884c 60min",
-      "interval_summary": null,
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 3306,
-          "avg_power": 121,
-          "max_power": 236,
-          "avg_hr": 133,
-          "max_hr": 148,
-          "avg_cadence": 84.99002,
-          "zone": 2,
-          "training_load": 32.844402,
-          "decoupling": -0.9471254
-        }
-      ]
-    },
     {
       "activity_id": "i197012735",
       "date": "2026-10-14",
