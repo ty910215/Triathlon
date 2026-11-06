@@ -70,7 +70,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-06T02:45:09.656312",
+    "last_updated": "2026-11-06T09:56:57.607263",
     "data_range_days": 28,
     "extended_range_days": 28,
     "version": "3.112"
@@ -307,7 +307,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1151,
+      "steps": 2233,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
@@ -323,10 +323,18 @@
       "wkg_current": 2.57,
       "wkg_ftp_source": "tested",
       "ftp_setting_date": "2026-11-06",
+      "wkg_block_start": 2.59,
+      "wkg_block_end": 2.57,
+      "wkg_block_delta": -0.02,
+      "weight_28d_slope_kg_per_week": 0.017,
       "display": {
         "weight_latest": {
           "value": 83.2,
           "unit": "kg"
+        },
+        "weight_28d_slope_per_week": {
+          "value": 0.017,
+          "unit": "kg/week"
         }
       }
     }
@@ -696,7 +704,7 @@
     "p_max": 503,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-06T02:45:09.655028",
+    "calculation_timestamp": "2026-11-06T09:56:57.606546",
     "data_quality": {
       "hrv_data_points": 28,
       "rhr_data_points": 28,
@@ -2113,9 +2121,12 @@
   "wellness_data": [
     {
       "date": "2026-10-10",
-      "weight_kg": null,
+      "weight_kg": 82.599,
       "display": {
-        "weight": null
+        "weight": {
+          "value": 82.6,
+          "unit": "kg"
+        }
       },
       "resting_hr": 51,
       "hrv_rmssd": 45.0,
@@ -2155,9 +2166,12 @@
     },
     {
       "date": "2026-10-11",
-      "weight_kg": null,
+      "weight_kg": 82.699,
       "display": {
-        "weight": null
+        "weight": {
+          "value": 82.7,
+          "unit": "kg"
+        }
       },
       "resting_hr": 52,
       "hrv_rmssd": 39.0,
@@ -2239,9 +2253,12 @@
     },
     {
       "date": "2026-10-13",
-      "weight_kg": null,
+      "weight_kg": 82.349,
       "display": {
-        "weight": null
+        "weight": {
+          "value": 82.3,
+          "unit": "kg"
+        }
       },
       "resting_hr": 50,
       "hrv_rmssd": 47.0,
@@ -2365,9 +2382,12 @@
     },
     {
       "date": "2026-10-16",
-      "weight_kg": null,
+      "weight_kg": 82.05,
       "display": {
-        "weight": null
+        "weight": {
+          "value": 82.0,
+          "unit": "kg"
+        }
       },
       "resting_hr": 52,
       "hrv_rmssd": 38.0,
@@ -2449,9 +2469,12 @@
     },
     {
       "date": "2026-10-18",
-      "weight_kg": null,
+      "weight_kg": 82.0,
       "display": {
-        "weight": null
+        "weight": {
+          "value": 82.0,
+          "unit": "kg"
+        }
       },
       "resting_hr": 53,
       "hrv_rmssd": 41.0,
@@ -2491,9 +2514,12 @@
     },
     {
       "date": "2026-10-19",
-      "weight_kg": null,
+      "weight_kg": 81.839,
       "display": {
-        "weight": null
+        "weight": {
+          "value": 81.8,
+          "unit": "kg"
+        }
       },
       "resting_hr": 52,
       "hrv_rmssd": 42.0,
@@ -2533,9 +2559,12 @@
     },
     {
       "date": "2026-10-20",
-      "weight_kg": null,
+      "weight_kg": 81.949,
       "display": {
-        "weight": null
+        "weight": {
+          "value": 81.9,
+          "unit": "kg"
+        }
       },
       "resting_hr": 53,
       "hrv_rmssd": 36.0,
@@ -2617,9 +2646,12 @@
     },
     {
       "date": "2026-10-22",
-      "weight_kg": null,
+      "weight_kg": 82.099,
       "display": {
-        "weight": null
+        "weight": {
+          "value": 82.1,
+          "unit": "kg"
+        }
       },
       "resting_hr": 54,
       "hrv_rmssd": 36.0,
@@ -2659,9 +2691,12 @@
     },
     {
       "date": "2026-10-23",
-      "weight_kg": null,
+      "weight_kg": 81.839,
       "display": {
-        "weight": null
+        "weight": {
+          "value": 81.8,
+          "unit": "kg"
+        }
       },
       "resting_hr": 53,
       "hrv_rmssd": 39.0,
@@ -2743,9 +2778,12 @@
     },
     {
       "date": "2026-10-25",
-      "weight_kg": null,
+      "weight_kg": 82.8,
       "display": {
-        "weight": null
+        "weight": {
+          "value": 82.8,
+          "unit": "kg"
+        }
       },
       "resting_hr": 53,
       "hrv_rmssd": 38.0,
@@ -3295,7 +3333,7 @@
       "respiration": null,
       "body_fat_pct": null,
       "abdomen_cm": null,
-      "steps": 1151,
+      "steps": 2233,
       "hydration_volume_l": null,
       "kcal_consumed": null,
       "carbohydrates_g": null,
