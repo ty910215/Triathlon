@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-15T00:24:24.049707",
+  "generated_at": "2026-11-15T07:00:37.273830",
   "version": "3.112",
   "script_hash": "a60c2ee19b34",
   "scan_hours": 72,
@@ -249,6 +249,27 @@
           "zone": 1,
           "training_load": 17.212532,
           "decoupling": 6.222402
+        }
+      ]
+    },
+    {
+      "activity_id": "i210137737",
+      "date": "2026-11-15",
+      "type": "VirtualRide",
+      "name": "P5W0 Z1\u6062\u590d\u9a91 45min @90-110W",
+      "interval_summary": null,
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3021,
+          "avg_power": 101,
+          "max_power": 150,
+          "avg_hr": 118,
+          "max_hr": 132,
+          "avg_cadence": 89.066246,
+          "zone": 1,
+          "training_load": 19.330555,
+          "decoupling": 7.082132
         }
       ]
     }
